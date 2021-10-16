@@ -1,0 +1,42 @@
+﻿
+CREATE TABLE `db_settings` (
+	`setting_id`	INTEGER,
+	`aws_sellerid`	TEXT,
+	`access_key`	TEXT,
+	`secret_key`	TEXT,
+	`refresh_minute`	INTEGER,
+	`is_alert_mail`	INTEGER,
+	`email_ids`	TEXT,
+	`sender_emailid`	TEXT,
+	`sender_emailpwd`	TEXT,
+	`sender_smtp`	TEXT,
+	`sender_port`	INTEGER,
+	`sender_chkssl`	INTEGER
+);
+
+
+update db_settings 
+set access_key=@access_key,secret_key=@secret_key,refresh_minute=@refresh_minute,is_alert_mail=@is_alert_mail,	
+	email_ids=@email_ids,sender_emailid=@sender_emailid,sender_emailpwd=@sender_emailpwd,
+	sender_smtp=@sender_smtp,sender_port =@sender_port,	sender_chkssl = @sender_chkssl where 	setting_id= 1
+
+	product_asin,target_price,target_used_price
+CREATE TABLE `db_products` (
+	`product_id`	INTEGER PRIMARY KEY AUTOINCREMENT,
+	`product_name`	TEXT,
+	`product_asin`	TEXT,
+	`target_price`	REAL,
+	`live_price`	REAL,
+	`live_newprice`	REAL,
+	`live_usedprice`	REAL,
+	`last_updated`	TEXT,
+	`target_used_price`	REAL,
+	`product_url`	TEXT,
+	`notes`	TEXT
+);
+
+delete from db_products where product_id=@product_id
+select * from db_products
+
+update db_products set target_price= @target_price,live_price=0,live_newprice=0,live_usedprice=0  where product_asin=@product_asin
+insert into db_products(product_asin,target_price) values (@product_asin,@target_price)

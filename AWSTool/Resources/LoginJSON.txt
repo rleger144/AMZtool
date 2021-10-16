@@ -1,0 +1,7 @@
+  {
+    "producttype": 1,
+    "custver": "#CustomerProductVersion#",
+    "custemail": "#CustomerEmailId#",
+    "custpassword": "#CustomerPassword#",
+    "custtokenno": "#TokenNo#"
+  }

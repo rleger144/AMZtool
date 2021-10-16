@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFC3960E-EE4B-478A-AB47-87B65296A840}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AWSTool.My.MyApplication</StartupObject>
+    <RootNamespace>AWSTool</RootNamespace>
+    <AssemblyName>AWSTool</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\PublishDLL\</OutputPath>
+    <DocumentationFile>AWSTool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DefineConstants>Win32=True</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AWSTool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\PriceAna_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Docs.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Spreadsheet.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpreadsheet.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DriveInfoEx, Version=1.1.3054.15437, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DriveInfoEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SQLite, Version=1.0.96.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AwsLogin_oLD.Designer.vb">
+      <DependentUpon>AwsLogin_oLD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AwsLogin_oLD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AwsMain_New.Designer.vb">
+      <DependentUpon>AwsMain_New.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AwsMain_New.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\AWSClass.vb" />
+    <Compile Include="Class\AWSLicenseKey.vb" />
+    <Compile Include="Class\dbOperation_keepa.vb" />
+    <Compile Include="Class\dbOperation.vb" />
+    <Compile Include="Class\DevExpressGrid.vb" />
+    <Compile Include="Class\hdModule.vb" />
+    <Compile Include="Class\keepaObj.vb" />
+    <Compile Include="Class\Oozee.vb" />
+    <Compile Include="Class\ozLoading.Designer.vb">
+      <DependentUpon>ozLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Class\ozLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\ProductLicDetails.vb" />
+    <Compile Include="Class\SignURL.vb" />
+    <Compile Include="Controls.designer.vb">
+      <DependentUpon>Controls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomAlertControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrmColumnSetting.Designer.vb">
+      <DependentUpon>FrmColumnSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmColumnSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImport.Designer.vb">
+      <DependentUpon>FrmImport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmItemDetail.Designer.vb">
+      <DependentUpon>FrmItemDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmItemDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKeepaScan.Designer.vb">
+      <DependentUpon>FrmKeepaScan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKeepaScan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLicDetails.Designer.vb">
+      <DependentUpon>frmLicDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLicDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReport.Designer.vb">
+      <DependentUpon>FrmReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeting.Designer.vb">
+      <DependentUpon>frmSeting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.Designer.vb">
+      <DependentUpon>FrmTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="AwsSplashScreen.Designer.vb">
+      <DependentUpon>AwsSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AwsSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AWSLogin.Designer.vb">
+      <DependentUpon>AWSLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AWSLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AwsLogin_oLD.resx">
+      <DependentUpon>AwsLogin_oLD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AwsMain_New.resx">
+      <DependentUpon>AwsMain_New.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\ozLoading.resx">
+      <DependentUpon>ozLoading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls.resx">
+      <DependentUpon>Controls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmColumnSetting.resx">
+      <DependentUpon>FrmColumnSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImport.resx">
+      <DependentUpon>FrmImport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmItemDetail.resx">
+      <DependentUpon>FrmItemDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKeepaScan.resx">
+      <DependentUpon>FrmKeepaScan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLicDetails.resx">
+      <DependentUpon>frmLicDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReport.resx">
+      <DependentUpon>FrmReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeting.resx">
+      <DependentUpon>frmSeting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTest.resx">
+      <DependentUpon>FrmTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AwsSplashScreen.resx">
+      <DependentUpon>AwsSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AWSLogin.resx">
+      <DependentUpon>AWSLogin.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Resources\Import Employee Sample.xls" />
+    <None Include="Resources\Import Employee Sample.xlsx" />
+    <None Include="Resources\Smart_Time.bak" />
+    <None Include="Resources\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\complete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down-Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Draw-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\History.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_complete-de9a416143f4b4c3552462e47302cd99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_complete-de9a416143f4b4c3552462e47302cd991.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left-Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noimage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paste-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photo-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Process.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right-Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_oozee3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaskSchedular.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaskSchedular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time_machine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up-Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updating.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\301.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1391877422_lock_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1391877484_lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1392486993_free_gift.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1399626782_db_comit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1399626893_db_update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Birthday.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cam.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DriveInfoEx.dll" />
+    <Content Include="bin\Debug\keepa.txt" />
+    <Content Include="bin\Debug\MWSClientCsRuntime-1.0.dll" />
+    <Content Include="bin\Debug\MWSProducts_2011-10-01_v2017-03-22.dll" />
+    <Content Include="bin\Debug\ozlib.dll" />
+    <Content Include="notes.txt" />
+    <None Include="Resources\ActiveLink.png" />
+    <None Include="Resources\CompleteLink.png" />
+    <None Include="Resources\keepa.png" />
+    <None Include="Resources\mnu_columnsetting.png" />
+    <None Include="Resources\mnu_columnreset.png" />
+    <None Include="Resources\mnureport.png" />
+    <None Include="Resources\icon_stocks.gif" />
+    <None Include="Resources\InfoRef32.png" />
+    <None Include="Resources\toolLogo.jpg" />
+    <None Include="Resources\SwipeLeft.png" />
+    <None Include="Resources\SwipeRight.png" />
+    <None Include="Resources\SwipeCenter.png" />
+    <None Include="Resources\Next.png" />
+    <None Include="Resources\Previous.png" />
+    <None Include="Resources\pause-button.png" />
+    <None Include="Resources\pause-play-button.png" />
+    <None Include="Resources\pausetext.gif" />
+    <None Include="Resources\link_amazon.png" />
+    <None Include="Resources\watch_remove.png" />
+    <None Include="Resources\watch_add.png" />
+    <None Include="Resources\def_view.xml" />
+    <None Include="Resources\mnuAction.png" />
+    <None Include="Resources\LoginScreen.jpg" />
+    <None Include="Resources\LoginScreen1.jpg" />
+    <None Include="Resources\LoginJSON.txt" />
+    <None Include="Resources\pngfind.com-conga-png-6579796.png" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\hiclipart.com %282%29.png" />
+    <None Include="Resources\hiclipart.com2.png" />
+    <None Include="Resources\PriceAnalyzer_Logo.jpeg" />
+    <Content Include="Resources\PriceAna_Icon.ico" />
+    <None Include="Resources\PriceAna_Icon.png" />
+    <Content Include="Uiconstock-Round-Edge-Social-Amazon.ico" />
+    <None Include="Resources\refresh-Grid.png" />
+    <None Include="Resources\auto-fitgrid.png" />
+    <None Include="Resources\font-minus.png" />
+    <None Include="Resources\font-plust.png" />
+    <None Include="Resources\viewsetting.png" />
+    <None Include="Resources\cross.png" />
+    <None Include="Resources\processing.gif" />
+    <None Include="Resources\update_price.png" />
+    <None Include="Resources\stop_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ozlib\ozlibm.csproj">
+      <Project>{4139e5e8-a001-40fc-b184-50ebdee642e6}</Project>
+      <Name>ozlibm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

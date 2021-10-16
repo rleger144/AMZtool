@@ -1,0 +1,60 @@
+
+CREATE TABLE db_MarketPlaceMas (
+    MarketId   INTEGER   NOT NULL ON CONFLICT ROLLBACK
+                         PRIMARY KEY ON CONFLICT ROLLBACK,
+    MarketName TEXT (50) NOT NULL,
+    IsActive   INTEGER   NOT NULL
+                         DEFAULT (1) 
+);
+
+
+CREATE TABLE db_MarketPlaceDet (
+    MarketId        INTEGER REFERENCES db_MarketPlaceMas (MarketId) ON DELETE RESTRICT
+                                                                    ON UPDATE RESTRICT
+                            NOT NULL,
+    KeyId           INTEGER NOT NULL,
+    KeyName         TEXT    NOT NULL,
+    KeyValue        TEXT,
+    KeyDisplayOrder INTEGER,
+    PRIMARY KEY (MarketId, KeyId)
+);
+
+Insert into db_MarketPlaceMas Values(1,'MWS',1);
+Insert into db_MarketPlaceMas Values(2,'EBAY',1);
+Insert into db_MarketPlaceMas Values(3,'KEEPA',1);
+
+Insert into  db_MarketPlaceDet Values(1,1,'MWS Seller Id','ABF6QR8S79RK2',1);
+Insert into  db_MarketPlaceDet Values(1,2,'MWS AccessKey ID','AKIAJUZLOKGNMX5QM7PQ',2);
+Insert into  db_MarketPlaceDet Values(1,3,'MWS Secret Key','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',3);
+Insert into  db_MarketPlaceDet Values(1,4,'MWS MarketPlace ID','ATVPDKIKX0DER',4);
+Insert into  db_MarketPlaceDet Values(2,1,'eBay AppID (ClientId)','JustinWi-ATool-PRD-f5d8651d7-56f78bf3',1);
+Insert into  db_MarketPlaceDet Values(2,2,'eBay Dev ID','9cb9dbdb-2758-4488-9f71-b101b2598fc0',2);
+Insert into  db_MarketPlaceDet Values(2,3,'eBay Cert ID','PRD-5d8651d7c9f0-5227-4db0-bd8f-749b',3);
+
+Insert into  db_MarketPlaceDet Values(2,4,'Enable eBay','0',4);
+Insert into  db_MarketPlaceDet Values(2,5,'Enable Browser For Current Listing','0',5);
+Insert into  db_MarketPlaceDet Values(2,6,'Enable Browser For Completed Listing','0',6);
+
+Insert into  db_MarketPlaceDet Values(3,1,'Keepa Access Key','7v18rhcv59mhhlju9j0o39uojjhojo85ll07cptqk1h6h9qlnt7n4vv9un3fnvfd',1);
+Insert into  db_MarketPlaceDet Values(3,2,'New Key','Testing Key Assign',2);
+
+
+Create Table db_tempProduct as Select * from db_products;
+
+
+alter table db_settings drop column mws_secretkey;
+alter table db_settings drop column mws_accesskey;
+alter table db_settings drop column mws_sellerid;
+alter table db_settings drop column mws_marketplaceid;
+
+
+alter table db_settings drop column Eb_App_ID
+alter table db_settings drop column Eb_Dev_ID
+alter table db_settings drop column Eb_Cer_ID
+alter table db_settings drop column keepa_Access_key
+alter table db_settings drop column enable_ebay
+alter table db_settings drop column enable_ebay_act_browser
+alter table db_settings drop column enable_ebay_comp_browser
+
+create table temp_Settings as select * from db_settings;
+

@@ -1,0 +1,5 @@
+E:\WORK\HD\AWS Product\AWSTool\AWSLib\bin\Debug\AWSLib.dll
+E:\WORK\HD\AWS Product\AWSTool\AWSLib\bin\Debug\AWSLib.pdb
+E:\WORK\HD\AWS Product\AWSTool\AWSLib\obj\Debug\AWSLib.dll
+E:\WORK\HD\AWS Product\AWSTool\AWSLib\obj\Debug\AWSLib.pdb
+E:\WORK\HD\AWS Product\AWSTool\AWSLib\obj\Debug\AWSLib.csprojResolveAssemblyReference.cache

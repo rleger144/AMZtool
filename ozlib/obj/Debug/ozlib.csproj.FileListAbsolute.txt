@@ -1,0 +1,19 @@
+F:\SVN\AWSTool\JUSTIN\AWSTool\ozlib\bin\Debug\ozlibm.dll
+F:\SVN\AWSTool\JUSTIN\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+F:\SVN\AWSTool\JUSTIN\AWSTool\ozlib\obj\Debug\ozlibm.dll
+F:\SVN\AWSTool\JUSTIN\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+F:\SVN\AWSTool\JUSTIN\AWSTool\AWSTool\ozlib\bin\Debug\ozlibm.dll
+F:\SVN\AWSTool\JUSTIN\AWSTool\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+F:\SVN\AWSTool\JUSTIN\AWSTool\AWSTool\ozlib\obj\Debug\ozlibm.dll
+F:\SVN\AWSTool\JUSTIN\AWSTool\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+E:\work\AWSTool\JUSTIN\AWSTool\ozlib\bin\Debug\ozlibm.dll
+E:\work\AWSTool\JUSTIN\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+E:\work\AWSTool\JUSTIN\AWSTool\ozlib\obj\Debug\ozlibm.dll
+E:\work\AWSTool\JUSTIN\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+E:\work\AWSTool\JUSTIN\AWSTool\ozlib\obj\Debug\ozlib.csprojResolveAssemblyReference.cache
+F:\SVN\AWSTool\JUSTIN\AWSTool\ozlib\obj\Debug\ozlib.csprojResolveAssemblyReference.cache
+H:\UP Work\Justin\AWSTool\ozlib\bin\Debug\ozlibm.dll
+H:\UP Work\Justin\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+H:\UP Work\Justin\AWSTool\ozlib\obj\Debug\ozlib.csprojResolveAssemblyReference.cache
+H:\UP Work\Justin\AWSTool\ozlib\obj\Debug\ozlibm.dll
+H:\UP Work\Justin\AWSTool\ozlib\obj\Debug\ozlibm.pdb

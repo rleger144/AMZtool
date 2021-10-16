@@ -1,0 +1,56 @@
+H:\UP Work\Justin\AWSTool\ozlib\bin\Debug\ozlibm.dll
+H:\UP Work\Justin\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+H:\UP Work\Justin\AWSTool\ozlib\obj\Debug\ozlibm.dll
+H:\UP Work\Justin\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+H:\UP Work\Justin\AWSTool\ozlib\obj\Debug\ozlibm.csprojResolveAssemblyReference.cache
+F:\SVN\AWSTool\JUSTIN\AWSTool 9 March 18\AWSTool\ozlib\bin\Debug\ozlibm.dll
+F:\SVN\AWSTool\JUSTIN\AWSTool 9 March 18\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+F:\SVN\AWSTool\JUSTIN\AWSTool 9 March 18\AWSTool\ozlib\obj\Debug\ozlibm.dll
+F:\SVN\AWSTool\JUSTIN\AWSTool 9 March 18\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+F:\SVN\AWSTool\JUSTIN\AWSTool 9 March 18\AWSTool\ozlib\obj\Debug\ozlibm.csprojResolveAssemblyReference.cache
+E:\Work\JUSTIN\LATEST\AWSTool\ozlib\bin\Debug\ozlibm.dll
+E:\Work\JUSTIN\LATEST\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+E:\Work\JUSTIN\LATEST\AWSTool\ozlib\obj\Debug\ozlibm.csprojResolveAssemblyReference.cache
+E:\Work\JUSTIN\LATEST\AWSTool\ozlib\obj\Debug\ozlibm.dll
+E:\Work\JUSTIN\LATEST\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\LATEST\AWSTool\ozlib\bin\Debug\ozlibm.dll
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\LATEST\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\LATEST\AWSTool\ozlib\obj\Debug\ozlibm.csprojResolveAssemblyReference.cache
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\LATEST\AWSTool\ozlib\obj\Debug\ozlibm.dll
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\LATEST\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\AAA - LATEST Justin\AWSTool\ozlib\bin\Debug\ozlibm.dll
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\AAA - LATEST Justin\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\AAA - LATEST Justin\AWSTool\ozlib\obj\Debug\ozlibm.csprojResolveAssemblyReference.cache
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\AAA - LATEST Justin\AWSTool\ozlib\obj\Debug\ozlibm.dll
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\AAA - LATEST Justin\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+I:\Work\JUSTIN\Justin 12 Aug 2018\AWSTool\ozlib\bin\Debug\ozlibm.dll
+I:\Work\JUSTIN\Justin 12 Aug 2018\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+I:\Work\JUSTIN\Justin 12 Aug 2018\AWSTool\ozlib\obj\Debug\ozlibm.dll
+I:\Work\JUSTIN\Justin 12 Aug 2018\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\AA LATEST  Justin 13 Aug 2018\Justin 12 Aug 2018\AWSTool\ozlib\bin\Debug\ozlibm.dll
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\AA LATEST  Justin 13 Aug 2018\Justin 12 Aug 2018\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\AA LATEST  Justin 13 Aug 2018\Justin 12 Aug 2018\AWSTool\ozlib\obj\Debug\ozlibm.csprojResolveAssemblyReference.cache
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\AA LATEST  Justin 13 Aug 2018\Justin 12 Aug 2018\AWSTool\ozlib\obj\Debug\ozlibm.dll
+F:\UTILs\NEW OZLIC - OLD 2014\AWSTool Justin ALL\AA LATEST  Justin 13 Aug 2018\Justin 12 Aug 2018\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+I:\Work\JUSTIN\Justin 14 Aug 2018 2\Justin 12 Aug 2018\AWSTool\ozlib\bin\Debug\ozlibm.dll
+I:\Work\JUSTIN\Justin 14 Aug 2018 2\Justin 12 Aug 2018\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+I:\Work\JUSTIN\Justin 14 Aug 2018 2\Justin 12 Aug 2018\AWSTool\ozlib\obj\Debug\ozlibm.csprojResolveAssemblyReference.cache
+I:\Work\JUSTIN\Justin 14 Aug 2018 2\Justin 12 Aug 2018\AWSTool\ozlib\obj\Debug\ozlibm.dll
+I:\Work\JUSTIN\Justin 14 Aug 2018 2\Justin 12 Aug 2018\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+D:\ShopingAnalysis\AWSTool - 27 jUNE 2019 LATEST SOURCE CODE\ozlib\bin\Debug\ozlibm.dll
+D:\ShopingAnalysis\AWSTool - 27 jUNE 2019 LATEST SOURCE CODE\ozlib\bin\Debug\ozlibm.pdb
+D:\ShopingAnalysis\AWSTool - 27 jUNE 2019 LATEST SOURCE CODE\ozlib\obj\Debug\ozlibm.dll
+D:\ShopingAnalysis\AWSTool - 27 jUNE 2019 LATEST SOURCE CODE\ozlib\obj\Debug\ozlibm.pdb
+D:\ShopingAnalysis\AWSTool - 27 jUNE 2019 LATEST SOURCE CODE\ozlib\obj\Debug\ozlibm.csprojResolveAssemblyReference.cache
+D:\ShopingAnalysis\AWSTool\ozlib\bin\Debug\ozlibm.dll
+D:\ShopingAnalysis\AWSTool\ozlib\bin\Debug\ozlibm.pdb
+D:\ShopingAnalysis\AWSTool\ozlib\obj\Debug\ozlibm.dll
+D:\ShopingAnalysis\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+D:\ShopingAnalysis\AWSTool\PublishDLL\ozlibm.dll
+D:\ShopingAnalysis\AWSTool\PublishDLL\ozlibm.pdb
+D:\ShopingAnalysis\AWSTool\ozlib\obj\Debug\ozlibm.csprojResolveAssemblyReference.cache
+D:\Projects\VS2013_Projects\AWSTool\PublishDLL\ozlibm.dll
+D:\Projects\VS2013_Projects\AWSTool\PublishDLL\ozlibm.pdb
+D:\Projects\VS2013_Projects\AWSTool\ozlib\obj\Debug\ozlibm.dll
+D:\Projects\VS2013_Projects\AWSTool\ozlib\obj\Debug\ozlibm.pdb
+D:\Projects\VS2013_Projects\AWSTool\ozlib\obj\Debug\ozlibm.csprojResolveAssemblyReference.cache

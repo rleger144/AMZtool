@@ -1,0 +1,27 @@
+Exception in Complete NEW LOWEST PRICE FETCH 
+The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+Exception in Comlete List NEW 
+The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+Exception in USED LOWEST EBAY FETCH 
+The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+Exception in Complete NEW LOWEST PRICE FETCH 
+The underlying connection was closed: The connection was closed unexpectedly.
+Exception in Comlete List NEW 
+The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+Exception in USED LOWEST EBAY FETCH 
+The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+MAIL Sending ERROR
+The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+------------------------------------------------
+MAIL Sending ERROR
+The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+------------------------------------------------
+MAIL Sending ERROR
+The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+------------------------------------------------
+MAIL Sending ERROR
+The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+------------------------------------------------
+MAIL Sending ERROR
+The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+------------------------------------------------

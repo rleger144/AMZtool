@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4139E5E8-A001-40FC-B184-50EBDEE642E6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ozlibm</RootNamespace>
+    <AssemblyName>ozlibm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\PublishDLL\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GblMWS.cs" />
+    <Compile Include="GetLowestOfferListingForAsin.cs" />
+    <Compile Include="GetMatchingProduct.cs" />
+    <Compile Include="MarketplaceWebServiceProducts.cs" />
+    <Compile Include="MarketplaceWebServiceProductsClient.cs" />
+    <Compile Include="MarketplaceWebServiceProductsConfig.cs" />
+    <Compile Include="MarketplaceWebServiceProductsException.cs" />
+    <Compile Include="Model\ASINIdentifier.cs" />
+    <Compile Include="Model\ASINListType.cs" />
+    <Compile Include="Model\ASINs.cs" />
+    <Compile Include="Model\AttributeSetList.cs" />
+    <Compile Include="Model\Categories.cs" />
+    <Compile Include="Model\CompetitivePriceList.cs" />
+    <Compile Include="Model\CompetitivePriceType.cs" />
+    <Compile Include="Model\CompetitivePricingType.cs" />
+    <Compile Include="Model\Error.cs" />
+    <Compile Include="Model\ErrorResponse.cs" />
+    <Compile Include="Model\GetCompetitivePricingForASINRequest.cs" />
+    <Compile Include="Model\GetCompetitivePricingForASINResponse.cs" />
+    <Compile Include="Model\GetCompetitivePricingForASINResult.cs" />
+    <Compile Include="Model\GetCompetitivePricingForSKURequest.cs" />
+    <Compile Include="Model\GetCompetitivePricingForSKUResponse.cs" />
+    <Compile Include="Model\GetCompetitivePricingForSKUResult.cs" />
+    <Compile Include="Model\GetLowestOfferListingsForASINRequest.cs" />
+    <Compile Include="Model\GetLowestOfferListingsForASINResponse.cs" />
+    <Compile Include="Model\GetLowestOfferListingsForASINResult.cs" />
+    <Compile Include="Model\GetLowestOfferListingsForSKURequest.cs" />
+    <Compile Include="Model\GetLowestOfferListingsForSKUResponse.cs" />
+    <Compile Include="Model\GetLowestOfferListingsForSKUResult.cs" />
+    <Compile Include="Model\GetMatchingProductForIdRequest.cs" />
+    <Compile Include="Model\GetMatchingProductForIdResponse.cs" />
+    <Compile Include="Model\GetMatchingProductForIdResult.cs" />
+    <Compile Include="Model\GetMatchingProductRequest.cs" />
+    <Compile Include="Model\GetMatchingProductResponse.cs" />
+    <Compile Include="Model\GetMatchingProductResult.cs" />
+    <Compile Include="Model\GetMyPriceForASINRequest.cs" />
+    <Compile Include="Model\GetMyPriceForASINResponse.cs" />
+    <Compile Include="Model\GetMyPriceForASINResult.cs" />
+    <Compile Include="Model\GetMyPriceForSKURequest.cs" />
+    <Compile Include="Model\GetMyPriceForSKUResponse.cs" />
+    <Compile Include="Model\GetMyPriceForSKUResult.cs" />
+    <Compile Include="Model\GetProductCategoriesForASINRequest.cs" />
+    <Compile Include="Model\GetProductCategoriesForASINResponse.cs" />
+    <Compile Include="Model\GetProductCategoriesForASINResult.cs" />
+    <Compile Include="Model\GetProductCategoriesForSKURequest.cs" />
+    <Compile Include="Model\GetProductCategoriesForSKUResponse.cs" />
+    <Compile Include="Model\GetProductCategoriesForSKUResult.cs" />
+    <Compile Include="Model\GetServiceStatusRequest.cs" />
+    <Compile Include="Model\GetServiceStatusResponse.cs" />
+    <Compile Include="Model\GetServiceStatusResult.cs" />
+    <Compile Include="Model\IdentifierType.cs" />
+    <Compile Include="Model\IdListType.cs" />
+    <Compile Include="Model\ListMatchingProductsRequest.cs" />
+    <Compile Include="Model\ListMatchingProductsResponse.cs" />
+    <Compile Include="Model\ListMatchingProductsResult.cs" />
+    <Compile Include="Model\LowestOfferListingList.cs" />
+    <Compile Include="Model\LowestOfferListingType.cs" />
+    <Compile Include="Model\Message.cs" />
+    <Compile Include="Model\MessageList.cs" />
+    <Compile Include="Model\MoneyType.cs" />
+    <Compile Include="Model\NumberOfOfferListingsList.cs" />
+    <Compile Include="Model\NumberOfOfferListingsType.cs" />
+    <Compile Include="Model\OfferCountType.cs" />
+    <Compile Include="Model\OfferListingCountType.cs" />
+    <Compile Include="Model\OffersList.cs" />
+    <Compile Include="Model\OfferType.cs" />
+    <Compile Include="Model\PriceType.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductList.cs" />
+    <Compile Include="Model\ProductsUtil.cs" />
+    <Compile Include="Model\QualifiersType.cs" />
+    <Compile Include="Model\RelationshipList.cs" />
+    <Compile Include="Model\ResponseHeaderMetadata.cs" />
+    <Compile Include="Model\ResponseMetadata.cs" />
+    <Compile Include="Model\SalesRankList.cs" />
+    <Compile Include="Model\SalesRankType.cs" />
+    <Compile Include="Model\SellerSKUIdentifier.cs" />
+    <Compile Include="Model\SellerSKUListType.cs" />
+    <Compile Include="Model\ServiceStatusEnum.cs" />
+    <Compile Include="Model\ShippingTimeType.cs" />
+    <Compile Include="MWSProductsMain.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

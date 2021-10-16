@@ -1,0 +1,4 @@
+Exception in Complete NEW LOWEST PRICE FETCH 
+The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+Exception in Comlete List NEW 
+The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.

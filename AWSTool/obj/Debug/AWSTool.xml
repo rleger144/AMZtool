@@ -1,0 +1,454 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AWSTool
+</name>
+</assembly>
+<members>
+<member name="P:AWSTool.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources._1391877422_lock_open">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources._1391877484_lock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources._1392486993_free_gift">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources._1399626782_db_comit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources._1399626893_db_update">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources._301">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources._new">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources._Next">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.ActiveLink">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.auto_fitgrid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Birthday">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.cam">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Clock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Close">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.complete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.CompleteLink">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.connect">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.connect1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.cross">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.def_view">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;table&gt;
+&lt;Column&gt;&lt;col_field&gt;product_id&lt;/col_field&gt;&lt;col_width&gt;20&lt;/col_width&gt;&lt;col_order&gt;-1&lt;/col_order&gt;&lt;col_show&gt;NO&lt;/col_show&gt;&lt;/Column&gt;
+&lt;Column&gt;&lt;col_field&gt;product_name&lt;/col_field&gt;&lt;col_width&gt;200&lt;/col_width&gt;&lt;col_order&gt;0&lt;/col_order&gt;&lt;col_show&gt;YES&lt;/col_show&gt;&lt;/Column&gt;
+&lt;Column&gt;&lt;col_field&gt;product_asin&lt;/col_field&gt;&lt;col_width&gt;110&lt;/col_width&gt;&lt;col_order&gt;1&lt;/col_order&gt;&lt;col_show&gt;YES&lt;/col_show&gt;&lt;/Column&gt;
+&lt;Column&gt;&lt;col_field&gt;product_category&lt;/col_field&gt;&lt;col_width&gt;20&lt;/col_width&gt;&lt;col_order&gt;2 [rest of string was truncated]";.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Down_Arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Draw_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Excel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Export">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.export_excel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.favicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Folder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.font_minus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.font_plust">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.hiclipart_com__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.hiclipart_com2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.History">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Home">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.icon_complete_de9a416143f4b4c3552462e47302cd99">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.icon_complete_de9a416143f4b4c3552462e47302cd991">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.icon_stocks">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Import">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.InfoRef32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.keepa">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Left_Arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.link_amazon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.LoginJSON">
+	<summary>
+  Looks up a localized string similar to   {
+    "producttype": 1,
+    "custver": "#CustomerProductVersion#",
+    "custemail": "#CustomerEmailId#",
+    "custpassword": "#CustomerPassword#",
+    "custtokenno": "#TokenNo#"
+  }.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.LoginScreen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.LoginScreen1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.logout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.minus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.mnu_columnreset">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.mnu_columnsetting">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.mnuAction">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.mnureport">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.noimage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Office">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Paste_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.pause_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.pause_play_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.pausetext">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.pdf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Photo_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.play_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Plus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.pngfind_com_conga_png_6579796">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Previous">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.PriceAna_Icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.PriceAnalyzer_Logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Process">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.processing">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.refresh_Grid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.remove">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Report">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Reset">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Right_Arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.save1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.search">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.settings">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.splash_oozee3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.start">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.stop_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.SwipeCenter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.SwipeLeft">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.SwipeRight">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.TaskSchedular">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.TaskSchedular1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Tick">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Time_machine">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.toolLogo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.trash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.undo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Up_Arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.update_price">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.updating">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.user">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.ViewReport">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.viewsetting">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.Warning">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.watch_add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AWSTool.My.Resources.Resources.watch_remove">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:AWSTool.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
